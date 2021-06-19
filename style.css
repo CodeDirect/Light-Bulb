@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    background-color: teal;
+    margin-top: 0;
+    padding: 0.5em 0 0.5em;
+    color: white;
+}
+
+h2{
+    color: chocolate;
+}
+img{
+    width: 40%;
+    height: 40%;
+}
+#scrollDiv{
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+#scroll{
+    width: 80px;
+    height: 80px;
+}
+button{
+    width: 20em;
+    padding: 1em;
+    border-radius: 2em;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+main{
+    margin-bottom: 50px;
+}
+/*
+    Footer Style Starts Here
+*/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+footer a img{
+    width: 100%;
+    text-align: left;
+    vertical-align: bottom;
+}
+/* When the browser is at least 300px and above */
+@media screen and (min-width: 300px) {
+    main {
+      /* Apply some styles */
+      margin-bottom: 0%;
+    }
+    footer a img {
+        /* Apply some styles */
+        height: 71px;
+      }
+  }
+/* When the browser is at least 600px and above */
+@media screen and (min-width: 600px) {
+    main {
+      /* Apply some styles */
+      margin-bottom: 12%;
+    }
+    footer a img {
+        /* Apply some styles */
+        height: 71px;
+      }
+  }
+
+/* When the browser is at least 1024px and above */
+@media screen and (min-width: 1024px) {
+    main {
+      /* Apply some styles */
+      margin-bottom: 11%;
+    }
+    footer a img {
+        /* Apply some styles */
+        height: initial;
+      }
+    footer a{
+        display: block;
+    }
+  }
